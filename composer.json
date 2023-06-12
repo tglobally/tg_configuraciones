@@ -3,6 +3,12 @@
     "description": "Clase para controlar configuraciones",
     "type": "library",
     "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "tglobally\\configuraciones\\": "src/",
+            "config\\": "config/"
+        }
+    },
     "authors": [
         {
             "name": "tglobally",
